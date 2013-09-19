@@ -1,4 +1,5 @@
 #include<stdio.h>
+#define min -1000 
 int max(int a,int b)
 {
 	if(a>b)
@@ -10,8 +11,8 @@ int main()
 {
 	int max_so_far,max_ending_here,len,i,num[1000];
 	while(1){
-		max_so_far=-1000;
-		max_ending_here=-1000;
+		max_so_far=min;
+		max_ending_here=min;
 		printf("please input len\n");
 			scanf("%d",&len);
 		for(i=1;i<=len;i++)
