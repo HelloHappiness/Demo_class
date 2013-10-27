@@ -1,0 +1,13 @@
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\bin\Debug\csharpmaxsum.exe.config
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum_MarkupCompile.cache
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.g.resources
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.Properties.Resources.resources
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.csproj.GenerateResource.Cache
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\bin\Debug\csharpmaxsum.exe
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\bin\Debug\csharpmaxsum.pdb
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.exe
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.pdb
+C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.csprojResolveAssemblyReference.cache

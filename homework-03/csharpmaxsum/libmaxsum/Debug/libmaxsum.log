@@ -1,0 +1,20 @@
+﻿Build started 2013/10/26 23:37:36.
+     1>Project "C:\Users\hp\Desktop\csharpmaxsum\libmaxsum\libmaxsum.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         D:\visual stdio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBMAXSUM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\libmaxsum.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\visual stdio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBMAXSUM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         D:\visual stdio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D LIBMAXSUM_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\libmaxsum.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt libmaxsum.cpp
+         libmaxsum.cpp
+       Link:
+         D:\visual stdio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.lib" /MACHINE:X86 /DLL Debug\dllmain.obj
+         Debug\libmaxsum.obj
+         Debug\stdafx.obj
+            Creating library C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.lib and object C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.exp
+         libmaxsum.vcxproj -> C:\Users\hp\Desktop\csharpmaxsum\Debug\libmaxsum.dll
+     1>Done Building Project "C:\Users\hp\Desktop\csharpmaxsum\libmaxsum\libmaxsum.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.24
