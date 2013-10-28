@@ -11,3 +11,6 @@ C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\bin\Debug\csharpmaxsum.pdb
 C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.exe
 C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.pdb
 C:\Users\hp\Desktop\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.csprojResolveAssemblyReference.cache
+C:\Users\hp\Documents\GitHub\Demo_class\homework-03\csharpmaxsum\csharpmaxsum\bin\Debug\csharpmaxsum.exe.config
+C:\Users\hp\Documents\GitHub\Demo_class\homework-03\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.exe
+C:\Users\hp\Documents\GitHub\Demo_class\homework-03\csharpmaxsum\csharpmaxsum\obj\Debug\csharpmaxsum.pdb
