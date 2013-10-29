@@ -1,13 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define N 20
+#define N 19
 #define maxtry 100000
 int totalnum=0;
 char phrase_array[100][100];
 char result_array[100][100];
 int DX[8]={-1,-1,0,1,1,1,0,-1};
 int DY[8]={0,1,1,1,0,-1,-1,-1};
+int STA[26]={0};
 void sort()
 {
 	int i,j;
@@ -20,6 +21,17 @@ void sort()
                 	strcpy(phrase_array[j],s);
                 }                            
 }
+void statistics_alphabet()
+{
+	int i,j;
+	for(i=1;i<=totalnum;i++)
+		for(j=0;j<strlen(phrase_array[i]);j++)
+		{
+			if(phrase_array[i][j]-'a'>=0&&phrase_array[i][j]-'z'<=0)
+				phrase_array[i][j]=phrase_array[i][j]-'a'+'A';
+			STA[phrase_array[i][j]-'A']++;		
+		}
+}
 void input(FILE **p)
 {
 	int i=0,j;
@@ -29,6 +41,7 @@ void input(FILE **p)
  	for(i=1;i<=N;i++)
 		for(j=1;j<=N;j++)
 			result_array[i][j]=' ';
+	statistics_alphabet();
 }
 void insertword(char *phrase,int location_x,int location_y,int location_d)
 {
@@ -87,9 +100,37 @@ void workprocess()
   		insertword(phrase_array[i],location_x,location_y,location_d);
     }
 }
+void fillblank()
+{
+	char c[5];
+	int i,j,sign,min,temp;
+	for(i=0;i<5;i++)
+	{
+		sign=0;
+		min=STA[sign];
+		for(j=1;j<26;j++)
+		{
+			if(STA[j]<min)
+			{
+				sign=j;
+				min=STA[sign];
+			}	
+		}
+		c[i]=sign+'A';
+		STA[sign]=10000;
+	}
+	for(i=1;i<=N;i++)
+		for(j=1;j<=N;j++)
+			if(result_array[i][j]==' ')
+			{
+				temp=rand()%5;
+				result_array[i][j]=c[temp];
+			}
+}
 void output(FILE **p)
 {
 	int i,j;
+	fillblank();
 	for(i=1;i<=N;i++){
  		for(j=1;j<=N;j++)
    			fprintf(*p,"%c",result_array[i][j]);
@@ -100,7 +141,7 @@ int main(int argc, char *argv[])
 {
 	FILE *in,*out;
 	in=fopen("input.txt","r");
-	out=fopen("result.txt","w");
+	out=fopen("11061099and11061036_result.txt","w");
 	input(&in);
 	workprocess();
 	output(&out);	
